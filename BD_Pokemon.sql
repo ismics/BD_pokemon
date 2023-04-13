@@ -1,6 +1,6 @@
-drop database if exists bd_pokemon;
-create database bd_pokemon;
-use bd_pokemon;
+drop database if exists BD_Pokemon;
+create database BD_Pokemon;
+use BD_Pokemon;
 
 create table entrenadores (
 id_entrenador int not null auto_increment,
