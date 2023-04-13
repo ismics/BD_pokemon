@@ -135,10 +135,10 @@ objeto_de_evolucion varchar(20) not null,
 primary key (id_evolucion)
 );
 
-INSERT INTO evoluciones VALUE(1, '16', 'no requiere');
+INSERT INTO evoluciones VALUE(1, '0', 'Piedra trueno');
 INSERT INTO evoluciones VALUE(2, '16', 'no requere');
 INSERT INTO evoluciones VALUE(3, '16', 'no requiere');
-INSERT INTO evoluciones VALUE(4, '0', 'Piedra trueno');
+INSERT INTO evoluciones VALUE(4, '16', 'no requiere');
 INSERT INTO evoluciones VALUE(5, '0', 'Piedras evolutivas');
 
 create table gim_ent (
